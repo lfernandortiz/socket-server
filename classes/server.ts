@@ -4,6 +4,7 @@ import socketIO from "socket.io";
 import http from "http";
 
 export default class Server {
+  
   private static _instance: Server;
 
   public app: express.Application;
